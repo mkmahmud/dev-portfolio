@@ -2,17 +2,17 @@
     {
         "_id": "63c688915ad12660901b7c7e",
         "index": 0,
-        "projectName": "Houselabs",
-        "title": "Engineered this cloud based document management platform for developers, architects, designers, agents and homeowners",
-        "image": "https://www.unifiedinfotech.net/assets/images/portfolio-12-banner@1.5x.png",
-        "overview": "HouseLab is a great new system for builders, developers, architects, designers, real estate agents and homeowners. Warranties, manuals, plans, permits, paint colours, key contact details can be uploaded to a secure, branded online hub and then handed over — elegantly, sustainably and simply. Includes systems to support defect management and periodic servicing.",
-        "liveSite": "https://houselab.com.au/",
+        "projectName": "HealthOpX",
+        "title": "HealthOpx is a healthcare consulting and technology company that provides services such as strategic planning, data analytics, and digital transformation to healthcare organizations. ",
+        "image": "https://i.ibb.co/Df5LmLz/main.png",
+        "overview": "HealthOpX cofounders are 2nd generation Americans who had to help their parents navigate the healthcare system. They leaned on their community and community-based organizations for guidance. They knew that to create a sustainable change in their communities they had to uplift and support the community-based organizations that helped them growing up. HealthOpX saw similarities in other underserved populations around the U.S., and how community organizations were also a pillar of those communities, and is on a mission to create sustainable change for the underserved.",
+        "liveSite": "https://healthopx.com/",
         "technologies": [
             {
-                "name": "React"
+                "name": "Java Spring"
             },
             {
-                "name": "React"
+                "name": "ionic "
             },
             {
                 "name": "React"
@@ -23,118 +23,137 @@
                 "name": "UX/UI design"
             },
             {
-                "name": "Web Development"
+                "name": "Front end  Development"
+            },
+            {
+                "name": "back end  Development"
             }
         ],
         "challenges": [
             {
-                "name": "Homeowner face trouble to manage a stack of papers and files for invoices, warranties and other property related documents"
+                "name": "Security and privacy concerns, as sensitive patient information needs to be protected. Solutions include implementing secure servers and encryption techniques."
             },
             {
-                "name": "Builders need to manage papers like blueprints, manuals, invoices and warranty cards for different properties which can be a single property or multi-property apartment. Also a challenge for them to provide these document copies to buyers while handover"
+                "name": "Data governance, management, and analytics. Solutions include use of data management platforms, governance frameworks, and data analytics tools."
+            },
+            {
+                "name": "Integration with existing healthcare systems and databases. Solutions include using APIs and HL7 interfaces."
             }
         ],
         "solutions": [
             {
-                "name": "HouseLab provides a solution to manage the soft copies of the document organized properly in the application"
+                "name": "Security and privacy: Implementing secure servers and encryption techniques such as SSL/TLS, two-factor authentication, and regular security audits."
             },
             {
-                "name": "HouseLab provides property setup as single property and multi-property apartment for Builders to setup with documents and one-click handover to their buyers"
+                "name": "Data governance, management, and analytics: Use of data management platforms, governance frameworks, and data analytics tools to ensure proper data governance and analytics."
+            },
+            {
+                "name": "Integration: Using APIs and HL7 interfaces to integrate with existing healthcare systems and databases."
             }
-        ], 
+        ],
         "features": [
             {
-                "image": "https://www.unifiedinfotech.net/assets/images/portfolio-12-1@1.5x.png",
-                "title": "Project and property management",
-                "detils": "Houselab platform allows developers and real-estate agencies to build a meaningful relationship with their customers by providing them with an efficient way to manage their new home and reducing post-occupancy costs by ensuring they have everything they need."
+                "image": "https://i.ibb.co/3p9XXDd/f1.png",
+                "title": "Community Health Partner",
+                "detils": "HealthOpX offers operations software to community-based organizations so they can effectively carry out their own programs and work with government and health entities."
             },
             {
-                "image": "https://www.unifiedinfotech.net/assets/images/portfolio-12-1@1.5x.png",
-                "title": "Project and property management",
-                "detils": "Houselab platform allows developers and real-estate agencies to build a meaningful relationship with their customers by providing them with an efficient way to manage their new home and reducing post-occupancy costs by ensuring they have everything they need."
-            },
-            {
-                "image": "https://www.unifiedinfotech.net/assets/images/portfolio-12-1@1.5x.png",
-                "title": "Project and property management",
-                "detils": "Houselab platform allows developers and real-estate agencies to build a meaningful relationship with their customers by providing them with an efficient way to manage their new home and reducing post-occupancy costs by ensuring they have everything they need."
+                "image": "https://i.ibb.co/56kdnrR/f3.png",
+                "title": "Community Health Improvements With Technology",
+                "detils": "HealthOpX also has a predictive analytics tool that enables you to assess the risk of a members readmission, ER visit, and morbidity. We also have a service-based platform, where we partner with community-based organizations (CBO’s) to act upon these risk assessments. When CBO’s deliver a measure of preventative care or intervention through the service-based platform it feeds back into the algorithm and we are able to calculate how much they decreased the risk of X event or how they affected X health improvement initiative."
             }
         ]
     },
     {
         "_id": "63c68891816e22ffe053ba44",
         "index": 1,
-        "projectName": "Houselabs",
-        "title": "Engineered this cloud based document management platform for developers, architects, designers, agents and homeowners",
-        "image": "https://www.unifiedinfotech.net/assets/images/portfolio-12-banner@1.5x.png",
-        "overview": "HouseLab is a great new system for builders, developers, architects, designers, real estate agents and homeowners. Warranties, manuals, plans, permits, paint colours, key contact details can be uploaded to a secure, branded online hub and then handed over — elegantly, sustainably and simply. Includes systems to support defect management and periodic servicing.",
-        "liveSite": "https://houselab.com.au/",
+        "projectName": "Synerise",
+        "title": "This is an AI-driven marketing dashboard and SaaS project. Reinvented behavioral data processing & put it into work using AI & automation",
+        "image": "https://i.ibb.co/rfQ5Qxf/main.png",
+        "overview": "Reinvented behavioral data processing & put it into work using AI & automation 🥳 #17 Europe’s Fastest Growing Technology SectorCompany according to Financial Times & statista.com API first, headless, customizable & scalable, real-time interaction management, low code platform driven by science with data orchestration and pragmatic business scenarios execution.",
+        "liveSite": "https://synerise.com/",
         "technologies": [
             {
-                "name": "React"
+                "name": "Java Spring"
             },
             {
-                "name": "React"
+                "name": "Node"
             },
             {
-                "name": "React"
+                "name": "Microservices"
+            },
+            {
+                "name": "React.JS"
+            },
+            {
+                "name": "Next.JS"
             }
         ],
         "services": [
             {
-                "name": "UX/UI design"
-            },
-            {
-                "name": "Web Development"
+                "name": "Full-Stack Development"
             }
         ],
         "challenges": [
             {
-                "name": "Homeowner face trouble to manage a stack of papers and files for invoices, warranties and other property related documents"
+                "name": "Data security: Ensuring that sensitive data is protected and in compliance with regulations such as GDPR and CCPA."
             },
             {
-                "name": "Builders need to manage papers like blueprints, manuals, invoices and warranty cards for different properties which can be a single property or multi-property apartment. Also a challenge for them to provide these document copies to buyers while handover"
+                "name": "Integration with existing tools: Integrating the dashboard with existing marketing tools such as Google Analytics, Facebook Ads, or marketing automation software."
+            },
+            {
+                "name": "Pricing and cost: Finding the right pricing model and cost structure to attract and retain customers."
+            },
+            {
+                "name": "Scalability: Ensuring that the dashboard can handle a large amount of data and accommodate for future growth in terms of users and data sources."
             }
         ],
         "solutions": [
             {
-                "name": "HouseLab provides a solution to manage the soft copies of the document organized properly in the application"
+                "name": "Data security: Implementing secure servers and encryption techniques, as well as regular security audits to ensure data protection and compliance with regulations."
             },
             {
-                "name": "HouseLab provides property setup as single property and multi-property apartment for Builders to setup with documents and one-click handover to their buyers"
+                "name": "Integration with existing tools: Using APIs and integration platforms to connect the dashboard with existing marketing tools."
+            },
+            {
+                "name": "Pricing and cost: Finding the right pricing model and cost structure to attract and retain customers, for example, usage-based pricing or tiered pricing plans."
+            },
+            {
+                "name": "Scalability: Using cloud-based infrastructure and load balancing techniques to handle a large amount of data and accommodate for future growth."
             }
-        ], 
+        ],
         "features": [
             {
-                "image": "https://www.unifiedinfotech.net/assets/images/portfolio-12-1@1.5x.png",
-                "title": "Project and property management",
-                "detils": "Houselab platform allows developers and real-estate agencies to build a meaningful relationship with their customers by providing them with an efficient way to manage their new home and reducing post-occupancy costs by ensuring they have everything they need."
+                "image": "https://optimizer.synerise.com/images/resize/370/217/cover/6d90ee9d65cf42ed9ada3ca7b467f2ff.jpg",
+                "title": "Retail",
+                "detils": "Seamlessly integrate online and offline customer activities for a true 360-degree profile, updated in real time, while delivering customized content at scale.."
             },
             {
-                "image": "https://www.unifiedinfotech.net/assets/images/portfolio-12-1@1.5x.png",
-                "title": "Project and property management",
-                "detils": "Houselab platform allows developers and real-estate agencies to build a meaningful relationship with their customers by providing them with an efficient way to manage their new home and reducing post-occupancy costs by ensuring they have everything they need."
+                "image": "https://optimizer.synerise.com/images/resize/370/217/cover/ab9c35443bf245f59ba259c8fe4bd014.jpg",
+                "title": "E-commerce",
+                "detils": "Monitor customer touchpoints for optimized content and pricing information in tailored conversion paths."
             },
             {
-                "image": "https://www.unifiedinfotech.net/assets/images/portfolio-12-1@1.5x.png",
-                "title": "Project and property management",
-                "detils": "Houselab platform allows developers and real-estate agencies to build a meaningful relationship with their customers by providing them with an efficient way to manage their new home and reducing post-occupancy costs by ensuring they have everything they need."
+                "image": "https://optimizer.synerise.com/images/resize/370/217/cover/0f932db1cafe4957b0dce590b1edb321.jpg",
+                "title": "Automotive",
+                "detils": "Manage lead generation and sales funnel activity more effectively to drive traffic to showrooms, while enhancing the customer experience."
             }
         ]
     },
     {
         "_id": "63c68891256ca3b34c92b510",
         "index": 2,
-        "projectName": "Houselabs",
-        "title": "Engineered this cloud based document management platform for developers, architects, designers, agents and homeowners",
-        "image": "https://www.unifiedinfotech.net/assets/images/portfolio-12-banner@1.5x.png",
-        "overview": "HouseLab is a great new system for builders, developers, architects, designers, real estate agents and homeowners. Warranties, manuals, plans, permits, paint colours, key contact details can be uploaded to a secure, branded online hub and then handed over — elegantly, sustainably and simply. Includes systems to support defect management and periodic servicing.",
-        "liveSite": "https://houselab.com.au/",
+        "projectName": "MasterMind",
+        "title": "The New Way To Sell What You Know Online.",
+        "image": "https://i.ibb.co/zf1ngfP/main.png",
+        "overview": "MasterMind is an event management system that helps inexperienced coordinators with handling the organisation process step-by-step. The app includes multiple features: timelines, lists of tasks and requirements, registration of participants along with payment, an interactive wizard to create the promotion website and event agenda, video guides, and more.",
+        "liveSite": "https://mastermind.com/",
         "technologies": [
             {
-                "name": "React"
+                "name": "Angular"
             },
             {
-                "name": "React"
+                "name": "Java Spring"
             },
             {
                 "name": "React"
@@ -150,218 +169,37 @@
         ],
         "challenges": [
             {
-                "name": "Homeowner face trouble to manage a stack of papers and files for invoices, warranties and other property related documents"
+                "name": "Scalability: Ensuring that the system can handle a large number of events and attendees, as well as accommodate for future growth."
             },
             {
-                "name": "Builders need to manage papers like blueprints, manuals, invoices and warranty cards for different properties which can be a single property or multi-property apartment. Also a challenge for them to provide these document copies to buyers while handover"
+                "name": "User experience: Ensuring that the system is user-friendly and easy to navigate for both event organizers and attendees."
+            },
+            {
+                "name": "Data management: Managing and storing large amounts of event data, including attendee information, ticket sales, and event schedules."
+            },
+            {
+                "name": "Customization: Allowing for customization of the system to meet the specific needs of different event types and clients."
             }
         ],
         "solutions": [
             {
-                "name": "HouseLab provides a solution to manage the soft copies of the document organized properly in the application"
+                "name": "Scalability: Using cloud-based infrastructure and load balancing techniques to handle a large number of events and attendees, and accommodate for future growth."
             },
             {
-                "name": "HouseLab provides property setup as single property and multi-property apartment for Builders to setup with documents and one-click handover to their buyers"
-            }
-        ], 
-        "features": [
-            {
-                "image": "https://www.unifiedinfotech.net/assets/images/portfolio-12-1@1.5x.png",
-                "title": "Project and property management",
-                "detils": "Houselab platform allows developers and real-estate agencies to build a meaningful relationship with their customers by providing them with an efficient way to manage their new home and reducing post-occupancy costs by ensuring they have everything they need."
+                "name": "User experience: Conducting user testing and incorporating feedback to improve the user interface, and providing clear and actionable insights to help event organizers and attendees."
             },
             {
-                "image": "https://www.unifiedinfotech.net/assets/images/portfolio-12-1@1.5x.png",
-                "title": "Project and property management",
-                "detils": "Houselab platform allows developers and real-estate agencies to build a meaningful relationship with their customers by providing them with an efficient way to manage their new home and reducing post-occupancy costs by ensuring they have everything they need."
+                "name": "Data management: Use of data management platforms and data governance frameworks to manage and store large amounts of event data."
             },
             {
-                "image": "https://www.unifiedinfotech.net/assets/images/portfolio-12-1@1.5x.png",
-                "title": "Project and property management",
-                "detils": "Houselab platform allows developers and real-estate agencies to build a meaningful relationship with their customers by providing them with an efficient way to manage their new home and reducing post-occupancy costs by ensuring they have everything they need."
-            }
-        ]
-    },
-    {
-        "_id": "63c6889140b1b953892cca89",
-        "index": 3,
-        "projectName": "Houselabs",
-        "title": "Engineered this cloud based document management platform for developers, architects, designers, agents and homeowners",
-        "image": "https://www.unifiedinfotech.net/assets/images/portfolio-12-banner@1.5x.png",
-        "overview": "HouseLab is a great new system for builders, developers, architects, designers, real estate agents and homeowners. Warranties, manuals, plans, permits, paint colours, key contact details can be uploaded to a secure, branded online hub and then handed over — elegantly, sustainably and simply. Includes systems to support defect management and periodic servicing.",
-        "liveSite": "https://houselab.com.au/",
-        "technologies": [
-            {
-                "name": "React"
-            },
-            {
-                "name": "React"
-            },
-            {
-                "name": "React"
-            }
-        ],
-        "services": [
-            {
-                "name": "UX/UI design"
-            },
-            {
-                "name": "Web Development"
-            }
-        ],
-        "challenges": [
-            {
-                "name": "Homeowner face trouble to manage a stack of papers and files for invoices, warranties and other property related documents"
-            },
-            {
-                "name": "Builders need to manage papers like blueprints, manuals, invoices and warranty cards for different properties which can be a single property or multi-property apartment. Also a challenge for them to provide these document copies to buyers while handover"
-            }
-        ],
-        "solutions": [
-            {
-                "name": "HouseLab provides a solution to manage the soft copies of the document organized properly in the application"
-            },
-            {
-                "name": "HouseLab provides property setup as single property and multi-property apartment for Builders to setup with documents and one-click handover to their buyers"
-            }
-        ], 
-        "features": [
-            {
-                "image": "https://www.unifiedinfotech.net/assets/images/portfolio-12-1@1.5x.png",
-                "title": "Project and property management",
-                "detils": "Houselab platform allows developers and real-estate agencies to build a meaningful relationship with their customers by providing them with an efficient way to manage their new home and reducing post-occupancy costs by ensuring they have everything they need."
-            },
-            {
-                "image": "https://www.unifiedinfotech.net/assets/images/portfolio-12-1@1.5x.png",
-                "title": "Project and property management",
-                "detils": "Houselab platform allows developers and real-estate agencies to build a meaningful relationship with their customers by providing them with an efficient way to manage their new home and reducing post-occupancy costs by ensuring they have everything they need."
-            },
-            {
-                "image": "https://www.unifiedinfotech.net/assets/images/portfolio-12-1@1.5x.png",
-                "title": "Project and property management",
-                "detils": "Houselab platform allows developers and real-estate agencies to build a meaningful relationship with their customers by providing them with an efficient way to manage their new home and reducing post-occupancy costs by ensuring they have everything they need."
-            }
-        ]
-    },
-    {
-        "_id": "63c68891dc80eb29549ea83b",
-        "index": 4,
-        "title": "End-to-end Product Engineering for a multi-million dollar seed funded SaaS start-up",
-        "image": "https://www.unifiedinfotech.net/assets/images/portfolio-3@2x.jpg",
-        "projectName": "Houselabs",
-        "overview": "HouseLab is a great new system for builders, developers, architects, designers, real estate agents and homeowners. Warranties, manuals, plans, permits, paint colours, key contact details can be uploaded to a secure, branded online hub and then handed over — elegantly, sustainably and simply. Includes systems to support defect management and periodic servicing.",
-        "liveSite": "https://houselab.com.au/",
-        "technologies": [
-            {
-                "name": "React"
-            },
-            {
-                "name": "React"
-            },
-            {
-                "name": "React"
-            }
-        ],
-        "services": [
-            {
-                "name": "UX/UI design"
-            },
-            {
-                "name": "Web Development"
-            }
-        ],
-        "challenges": [
-            {
-                "name": "Homeowner face trouble to manage a stack of papers and files for invoices, warranties and other property related documents"
-            },
-            {
-                "name": "Builders need to manage papers like blueprints, manuals, invoices and warranty cards for different properties which can be a single property or multi-property apartment. Also a challenge for them to provide these document copies to buyers while handover"
-            }
-        ],
-        "solutions": [
-            {
-                "name": "HouseLab provides a solution to manage the soft copies of the document organized properly in the application"
-            },
-            {
-                "name": "HouseLab provides property setup as single property and multi-property apartment for Builders to setup with documents and one-click handover to their buyers"
+                "name": "Customization: Building the system with a modular architecture to allow for easy customization to the specific needs of different event types and clients."
             }
         ],
         "features": [
             {
-                "image": "https://www.unifiedinfotech.net/assets/images/portfolio-12-1@1.5x.png",
-                "title": "Project and property management",
-                "detils": "Houselab platform allows developers and real-estate agencies to build a meaningful relationship with their customers by providing them with an efficient way to manage their new home and reducing post-occupancy costs by ensuring they have everything they need."
-            },
-            {
-                "image": "https://www.unifiedinfotech.net/assets/images/portfolio-12-1@1.5x.png",
-                "title": "Project and property management",
-                "detils": "Houselab platform allows developers and real-estate agencies to build a meaningful relationship with their customers by providing them with an efficient way to manage their new home and reducing post-occupancy costs by ensuring they have everything they need."
-            },
-            {
-                "image": "https://www.unifiedinfotech.net/assets/images/portfolio-12-1@1.5x.png",
-                "title": "Project and property management",
-                "detils": "Houselab platform allows developers and real-estate agencies to build a meaningful relationship with their customers by providing them with an efficient way to manage their new home and reducing post-occupancy costs by ensuring they have everything they need."
-            }
-        ]
-    },
-    {
-        "_id": "63c68891dc80eb29549ea83b",
-        "index": 4,
-        "projectName": "Houselabs",
-        "title": "Engineered this cloud based document management platform for developers, architects, designers, agents and homeowners",
-        "image": "https://www.unifiedinfotech.net/assets/images/portfolio-12-banner@1.5x.png",
-        "overview": "HouseLab is a great new system for builders, developers, architects, designers, real estate agents and homeowners. Warranties, manuals, plans, permits, paint colours, key contact details can be uploaded to a secure, branded online hub and then handed over — elegantly, sustainably and simply. Includes systems to support defect management and periodic servicing.",
-        "liveSite": "https://houselab.com.au/",
-        "technologies": [
-            {
-                "name": "React"
-            },
-            {
-                "name": "React"
-            },
-            {
-                "name": "React"
-            }
-        ],
-        "services": [
-            {
-                "name": "UX/UI design"
-            },
-            {
-                "name": "Web Development"
-            }
-        ],
-        "challenges": [
-            {
-                "name": "Homeowner face trouble to manage a stack of papers and files for invoices, warranties and other property related documents"
-            },
-            {
-                "name": "Builders need to manage papers like blueprints, manuals, invoices and warranty cards for different properties which can be a single property or multi-property apartment. Also a challenge for them to provide these document copies to buyers while handover"
-            }
-        ],
-        "solutions": [
-            {
-                "name": "HouseLab provides a solution to manage the soft copies of the document organized properly in the application"
-            },
-            {
-                "name": "HouseLab provides property setup as single property and multi-property apartment for Builders to setup with documents and one-click handover to their buyers"
-            }
-        ],
-        "features": [
-            {
-                "image": "https://www.unifiedinfotech.net/assets/images/portfolio-12-1@1.5x.png",
-                "title": "Project and property management",
-                "detils": "Houselab platform allows developers and real-estate agencies to build a meaningful relationship with their customers by providing them with an efficient way to manage their new home and reducing post-occupancy costs by ensuring they have everything they need."
-            },
-            {
-                "image": "https://www.unifiedinfotech.net/assets/images/portfolio-12-1@1.5x.png",
-                "title": "Project and property management",
-                "detils": "Houselab platform allows developers and real-estate agencies to build a meaningful relationship with their customers by providing them with an efficient way to manage their new home and reducing post-occupancy costs by ensuring they have everything they need."
-            },
-            {
-                "image": "https://www.unifiedinfotech.net/assets/images/portfolio-12-1@1.5x.png",
-                "title": "Project and property management",
-                "detils": "Houselab platform allows developers and real-estate agencies to build a meaningful relationship with their customers by providing them with an efficient way to manage their new home and reducing post-occupancy costs by ensuring they have everything they need."
+                "image": "https://mastermind.com/wp-content/uploads/2022/07/build-your-business2x-1024x794.png",
+                "title": "Build Your Business With Simplicity",
+                "detils": "We’ve seen the same story too many times: you get excited, you know what you want to sell, what you want to say and who you want to serve… but then complicated technology gets in the way."
             }
         ]
     }

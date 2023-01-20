@@ -35,7 +35,7 @@ const Router = () => {
                 {
                     path:'/details/:id',
                     loader: async () => {
-                       return fetch('https://mkmahmuddev.github.io/data/data.json')
+                       return fetch('https://timothykroll.github.io/projects/projects.json')
                     },
                     element: <Details></Details>
                 },

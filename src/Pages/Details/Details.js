@@ -4,7 +4,7 @@ import { useLoaderData, useParams } from 'react-router-dom';
 import useTitle from '../../Hooks/useTitle';
 
 const Details = () => {
-    useTitle('Projects Details')
+   
 
     const { id } = useParams();
 
@@ -14,12 +14,12 @@ const Details = () => {
 
     const { title, projectName, overview, image, liveSite, services, challenges, solutions, features, technologies } = detailsData;
 
-
+    useTitle(projectName)
     return (
         <div className='details relative'>
             <img className='w-full h-[40vh] md:h-[70vh]' src={image} alt="" />
             <div className=' text-left bg-black px-4 w-[330px] mx-auto -mt-[50px] text-white md:w-1/3 md:ml-24'>
-                <h2 className='font-bold text-[32px]  '>{projectName}</h2>
+                <h2 className='font-bold text-[32px] text-[#4F47C8] '>{projectName}</h2>
                 <p className='py-5'>{title}</p>
             </div>
             <div>
@@ -68,8 +68,8 @@ const Details = () => {
                 <h2 className='font-bold text-[32px]'>Key Features</h2>
                 {
                     features?.map(feature => <div className="singelFetures py-10 md:flex">
-                        <img src={feature.image} className='h-[200px] w-full block mx-auto' alt="" />
-                        <div className='text-left'>
+                        <img src={feature.image} className='h-[300px] w-full block mx-auto' alt="" />
+                        <div className='text-left md:mx-5'>
                             <h2 className='font-bold py-4'>{feature.title}</h2>
                             <p>{feature.detils}</p>
                         </div>

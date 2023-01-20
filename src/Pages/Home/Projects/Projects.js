@@ -14,7 +14,7 @@ const Projects = () => {
  
 
     useEffect(() => {
-        fetch('https://mkmahmuddev.github.io/data/data.json')
+        fetch('https://timothykroll.github.io/projects/projects.json')
             .then(res => res.json())
             .then(data => {
                 setProjects([data[0], data[1]])
