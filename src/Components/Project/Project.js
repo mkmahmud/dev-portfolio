@@ -7,7 +7,8 @@ const Project = ({data}) => {
     const {title, image, technologies, _id} = data;
 
     return (
-        <div className='my-5 mx-2' data-aos="zoom-in-down">
+        <div className='my-5 mx-2 border border-4 rounded border-red-300 p-2' data-aos="fade-up"
+        data-aos-duration="3000">
             <Link to={`/details/${_id}`}>
                 <div className='overflow-hidden'>
                     <img src={image} className='hover:scale-125' alt="" />

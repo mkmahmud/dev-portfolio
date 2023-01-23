@@ -60,7 +60,10 @@ const Router = () => {
                     element: <MyResume></MyResume>
                 },
                 {
-                    path:'/blogdetails',
+                    path:'/blogdetails/:id',
+                    loader: async () => {
+                       return fetch('https://timothykroll.github.io/blog/blog.json')
+                    },
                     element: <BlogDetails></BlogDetails>
                 }
             ]

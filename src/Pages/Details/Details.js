@@ -4,7 +4,7 @@ import { useLoaderData, useParams } from 'react-router-dom';
 import useTitle from '../../Hooks/useTitle';
 
 const Details = () => {
-   
+
 
     const { id } = useParams();
 
@@ -17,13 +17,16 @@ const Details = () => {
     useTitle(projectName)
     return (
         <div className='details relative'>
-            <img className='w-full h-[40vh] md:h-[70vh]' src={image} alt="" />
-            <div className=' text-left bg-black px-4 w-[330px] mx-auto -mt-[50px] text-white md:w-1/3 md:ml-24'>
-                <h2 className='font-bold text-[32px] text-[#4F47C8] '>{projectName}</h2>
-                <p className='py-5'>{title}</p>
+            <div className='mb-24'>
+                <img className='w-full h-[40vh] md:h-[70vh] border border-8 rounded border-red-300 my-2' src={image} alt="" />
+                <div className='absolute text-left bg-black px-4 py-10 w-[330px] mx-auto -mt-[50px] text-white md:w-1/3 md:ml-24' data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom">
+                    <h2 className='font-bold text-[32px] text-[#4F47C8] '>{projectName}</h2>
+                    <p className='py-5'>{title}</p>
+                </div>
             </div>
             <div>
-                <div className="overview text-left py-20">
+                <div className="overview text-left py-24">
                     <h2 className='font-bold text-[32px]  '>Overview</h2>
                     <p className='py-5'>{overview}</p>
                     <a href={liveSite} class="relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold text-indigo-600 transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-gray-50 group">
@@ -47,7 +50,7 @@ const Details = () => {
                 </div>
             </div>
             <div className="chlangesAndFetures text-left text-white py-10 md:flex">
-                <div className="Challenges px-4 py-6 bg-[#E84949] w-full md:mx-5"  data-aos="flip-left">
+                <div className="Challenges px-4 py-6 bg-[#E84949] w-full md:mx-5" data-aos="flip-left">
                     <h2 className='font-bold text-[24px] '>Challenges</h2>
                     <ul className='py-4' >
                         {
@@ -55,7 +58,7 @@ const Details = () => {
                         }
                     </ul>
                 </div>
-                <div className="Solutions px-4 py-6 bg-[#4F47C8] w-full md:mx-5"  data-aos="flip-right">
+                <div className="Solutions px-4 py-6 bg-[#4F47C8] w-full md:mx-5" data-aos="flip-right">
                     <h2 className='font-bold text-[24px]  '>Solutions</h2>
                     <ul className='py-4'>
                         {
@@ -82,7 +85,7 @@ const Details = () => {
                 <h2 className='font-bold text-[32px]'>TECHNOLOGIES USED IN DEVELOPMENT</h2>
                 <ul className='text-left py-10'>
                     {
-                        technologies?.map(technology =>  <li><FontAwesomeIcon icon="fa-circle-dot" className='pr-2' />{technology.name}</li>)
+                        technologies?.map(technology => <li data-aos="zoom-in-down"><FontAwesomeIcon icon="fa-circle-dot" className='pr-2' />{technology.name}</li>)
                     }
                 </ul>
             </div>
