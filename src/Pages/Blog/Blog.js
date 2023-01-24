@@ -25,8 +25,8 @@ const Blog = () => {
 
                         <SingelBLog data={blogs[0]}></SingelBLog>
                         <SingelBLog data={blogs[1]} classes='md:col-span-2 md:row-span-2'></SingelBLog>
-                        <SingelBLog data={blogs[0]}></SingelBLog>
-                        <SingelBLog data={blogs[0]} classes='md:col-span-3 md:row-span-2'></SingelBLog>
+                        <SingelBLog data={blogs[2]}></SingelBLog>
+                        <SingelBLog data={blogs[3]} classes='md:col-span-3 md:row-span-2'></SingelBLog>
                     </>
                 }
 
