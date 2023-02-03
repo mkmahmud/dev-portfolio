@@ -2,6 +2,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import useTitle from '../../Hooks/useTitle';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
+
+
 
 const Details = () => {
 
@@ -12,19 +16,31 @@ const Details = () => {
 
     const detailsData = data.find(d => d._id === id)
 
-    const { title, projectName, overview, image, liveSite, services, challenges, solutions, features, technologies } = detailsData;
+    const { title, projectName, overview, image, images, liveSite, services, challenges, solutions, features, technologies } = detailsData;
 
     useTitle(projectName)
+
+    console.log(detailsData)
+
     return (
         <div className='details relative'>
-            <div className='mb-24'>
+            <div className='my-10'>
+                <Carousel autoPlay='true'>
+
+                    {
+                        images && images.map(sliderImage => <div> <img src={sliderImage.img} alt='' /> </div>)
+                    }
+
+                </Carousel>
+            </div>
+            {/* <div className='mb-24'>
                 <img className='w-full h-[40vh] md:h-[70vh] border border-8 rounded border-red-300 my-2' src={image} alt="" />
                 <div className='absolute text-left bg-black px-4 py-10 w-[330px] mx-auto -mt-[50px] text-white md:w-1/3 md:ml-24' data-aos="fade-up"
                     data-aos-anchor-placement="top-bottom">
                     <h2 className='font-bold text-[32px] text-[#4F47C8] '>{projectName}</h2>
                     <p className='py-5'>{title}</p>
                 </div>
-            </div>
+            </div> */}
             <div>
                 <div className="overview text-left py-24">
                     <h2 className='font-bold text-[32px]  '>Overview</h2>
@@ -71,7 +87,7 @@ const Details = () => {
                 <h2 className='font-bold text-[32px]'>Key Features</h2>
                 {
                     features?.map(feature => <div className="singelFetures py-10 md:flex">
-                        <img src={feature.image} className='h-[300px] w-full block mx-auto' alt="" />
+                        <img src={feature.image} className='h-[300px] w-1/2 block mx-auto' alt="" />
                         <div className='text-left md:mx-5'>
                             <h2 className='font-bold py-4'>{feature.title}</h2>
                             <p>{feature.detils}</p>

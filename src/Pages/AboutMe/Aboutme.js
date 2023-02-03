@@ -1,6 +1,6 @@
 import React from 'react';
 import useTitle from '../../Hooks/useTitle';
-import heroImage from '../../Assets/user1.jpg';
+import heroImage from '../../Assets/timoty.jpg';
 import Button from '../../Components/Buttons/Button';
 
 const Aboutme = () => {
@@ -25,7 +25,7 @@ const Aboutme = () => {
                 </div>
                 <div className="hero-image w-full md:mx-10">
                     <div className="image w-[300px] my-4 mx-auto p-4 relative md:mr-0 md:h-[497px] md:w-[411px] ">
-                        <div className='bg-[#4e4236] absolute top-0 left-0 h-96 w-full rounded -z-10' data-aos="fade-down"></div>
+                        <div className='bg-[#4e4236] absolute top-0 left-0 h-[400px] h-96 w-full rounded -z-10' data-aos="fade-down"></div>
                         <img className='block m-auto md:h-full w-full rounded' data-aos="fade-up" src={heroImage} alt="" />
                     </div>
                 </div>
