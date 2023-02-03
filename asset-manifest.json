@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/dev-portfolio/static/css/main.15d1189b.css",
+    "main.js": "/dev-portfolio/static/js/main.749f5693.js",
+    "static/js/787.d0fc6f61.chunk.js": "/dev-portfolio/static/js/787.d0fc6f61.chunk.js",
+    "static/media/pdf.worker.js": "/dev-portfolio/static/media/pdf.worker.a7e125ec2109575b207f.js",
+    "static/media/timoty.jpg": "/dev-portfolio/static/media/timoty.e5c9ff967437777c27ab.jpg",
+    "static/media/Timothy-resume.pdf": "/dev-portfolio/static/media/Timothy-resume.13dd3e9e2c1731635abe.pdf",
+    "static/media/aws.png": "/dev-portfolio/static/media/aws.7569fd4b81606bd37e2c.png",
+    "static/media/react.png": "/dev-portfolio/static/media/react.fe4aa8f63e66f01a65f7.png",
+    "static/media/mongo.png": "/dev-portfolio/static/media/mongo.52af898762e8b911b5ea.png",
+    "static/media/node.png": "/dev-portfolio/static/media/node.0c8609f2fc320c27e000.png",
+    "static/media/logo.png": "/dev-portfolio/static/media/logo.8d11a4eb5aecb7cdd2c5.png",
+    "static/media/ts.png": "/dev-portfolio/static/media/ts.e97180a2681f7e2dd36d.png",
+    "static/media/spring.png": "/dev-portfolio/static/media/spring.a801b922771a1a0bc6dd.png",
+    "static/media/hib.png": "/dev-portfolio/static/media/hib.540ac1e62607dc381b32.png",
+    "index.html": "/dev-portfolio/index.html",
+    "main.15d1189b.css.map": "/dev-portfolio/static/css/main.15d1189b.css.map",
+    "main.749f5693.js.map": "/dev-portfolio/static/js/main.749f5693.js.map",
+    "787.d0fc6f61.chunk.js.map": "/dev-portfolio/static/js/787.d0fc6f61.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15d1189b.css",
+    "static/js/main.749f5693.js"
+  ]
+}
