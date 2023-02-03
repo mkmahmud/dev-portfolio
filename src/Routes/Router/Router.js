@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from "react-dom/client";
 import {
+    HashRouter as
     createBrowserRouter,
     RouterProvider,
+    
 } from "react-router-dom";
 import Main from '../../Layouts/Main/Main';
 import Aboutme from '../../Pages/AboutMe/Aboutme';
