@@ -11,7 +11,7 @@ const Project = ({data}) => {
         data-aos-duration="3000">
             <Link to={`/details/${_id}`}>
                 <div className='overflow-hidden'>
-                    <img src={image} className='hover:scale-125' alt="" />
+                    <img src={image} className='hover:scale-125 h-[300px] w-full' alt="" />
                 </div>
                 <h1 className='text-2xl py-5 font-bold'>{title}</h1>
                 {

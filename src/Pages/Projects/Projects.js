@@ -12,7 +12,7 @@ const Projects = () => {
          .then(res => res.json())
          .then(data => setProjects(data))
     },[])
-console.log(projects)
+
     
 
     return (
