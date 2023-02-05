@@ -13,12 +13,10 @@ library.add(faX, faBars, faCircleDot, faArrowsToDot, faBriefcase, faSchool, faAr
 
 function App() {
   return (
-    <HashRouter>
       <div className="App min-w-[360px] max-w-[1440px] m-auto px-2 md:px-5">
         <Router>
         </Router>
       </div>
-    </HashRouter>
   );
 }
 

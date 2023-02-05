@@ -26,13 +26,12 @@ const Details = () => {
         <div className='details relative'>
             <div className='my-10'>
                 <Carousel autoPlay='true'>
-
                     {
                         images && images.map(sliderImage => <div> <img src={sliderImage.img} alt='' /> </div>)
                     }
-
                 </Carousel>
             </div>
+            {/* <h2 className='text-3xl font-bold text-left mt-24'> {title}</h2> */}
             {/* <div className='mb-24'>
                 <img className='w-full h-[40vh] md:h-[70vh] border border-8 rounded border-red-300 my-2' src={image} alt="" />
                 <div className='absolute text-left bg-black px-4 py-10 w-[330px] mx-auto -mt-[50px] text-white md:w-1/3 md:ml-24' data-aos="fade-up"
@@ -87,7 +86,7 @@ const Details = () => {
                 <h2 className='font-bold text-[32px]'>Key Features</h2>
                 {
                     features?.map(feature => <div className="singelFetures py-10 md:flex">
-                        <img src={feature.image} className='h-[300px] w-1/2 block mx-auto' alt="" />
+                        <img src={feature.image} className='h-[300px] w-full md:w-1/2 block mx-auto' alt="" />
                         <div className='text-left md:mx-5'>
                             <h2 className='font-bold py-4'>{feature.title}</h2>
                             <p>{feature.detils}</p>
