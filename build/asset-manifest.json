@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7e5de8c2.css",
+    "main.js": "/static/js/main.16946124.js",
+    "static/js/787.d0fc6f61.chunk.js": "/static/js/787.d0fc6f61.chunk.js",
+    "static/media/pdf.worker.js": "/static/media/pdf.worker.a7e125ec2109575b207f.js",
+    "static/media/user.png": "/static/media/user.09f10aebb0998608c1a6.png",
+    "static/media/Timothy-resume.pdf": "/static/media/Timothy-resume.13dd3e9e2c1731635abe.pdf",
+    "static/media/aws.png": "/static/media/aws.7569fd4b81606bd37e2c.png",
+    "static/media/react.png": "/static/media/react.fe4aa8f63e66f01a65f7.png",
+    "static/media/mongo.png": "/static/media/mongo.52af898762e8b911b5ea.png",
+    "static/media/node.png": "/static/media/node.0c8609f2fc320c27e000.png",
+    "static/media/logo.png": "/static/media/logo.8d11a4eb5aecb7cdd2c5.png",
+    "static/media/ts.png": "/static/media/ts.e97180a2681f7e2dd36d.png",
+    "static/media/spring.png": "/static/media/spring.a801b922771a1a0bc6dd.png",
+    "static/media/hib.png": "/static/media/hib.540ac1e62607dc381b32.png",
+    "index.html": "/index.html",
+    "main.7e5de8c2.css.map": "/static/css/main.7e5de8c2.css.map",
+    "main.16946124.js.map": "/static/js/main.16946124.js.map",
+    "787.d0fc6f61.chunk.js.map": "/static/js/787.d0fc6f61.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e5de8c2.css",
+    "static/js/main.16946124.js"
+  ]
+}
